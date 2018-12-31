@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Contact Form</title>
+    <meta charset="utf-8"/>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <?php include 'Contact.php';?>
+
+</head>
+<body class = "contact-body">
+
+<header class="container">
+
+    <div class="row">
+
+        <a class="CWMlogo" href="index.html">
+            <img src="http://www.clockworkmania.orlandosciencerobotics.org/images/clockworkMania_Final_Logo.png"/>
+        </a>
+
+        <nav class="col-sm-8 text-right">
+            <span class='menu-button'>Menu</span>
+
+            <a class="FRClogo" href="https://www.firstinspires.org/" target = _blank>
+                <img src="http://www.clockworkmania.orlandosciencerobotics.org/images/FIRST_Vertical_RGB.png"/> </a>
+
+            <a class="OSSlogo" href="http://orlandoscience.org/" target = _blank>
+                <img src="http://orlandosciencerobotics.org/images/logo_orlandoscience_nowhite.png"/>
+
+            </a>
+
+        </nav>
+    </div>
+</header>
+
+<nav class ="sheader">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+
+        <li><a href="index.html">Outreach <i class = "fa fa-sort-desc"></i></a>
+            <ul>
+                <li><a href="Project1.html">Project 1</a></li>
+                <li><a href="Project2.html">Project 2</a></li>
+                <li><a href="Project3.html">Project 3</a></li>
+                <li><a href="Project4.html">Project 4</a></li>
+            </ul>
+        </li>
+
+        <li><a href="index.html">Team History <i class = "fa fa-sort-desc"></i></a>
+            <ul>
+                <li><a href="Project1.html">Project 1</a></li>
+                <li><a href="Project2.html">Project 2</a></li>
+                <li><a href="Project3.html">Project 3</a></li>
+                <li><a href="Project4.html">Project 4</a></li>
+            </ul>
+        </li>
+
+        <li><a href="Merchandise.html">Merchandise</a></li>
+        <li><a href="Contact.html">Contact Us</a></li>
+    </ul>
+
+</nav>
+
+<section class = "wrapper">
+    <div class = "contact-title">
+        <h1>Contact Us</h1>
+        <p>Contact Us With Any Questions Or Comments</p>
+    </div>
+
+    <div class = "form">
+        <form id = "contact-form" method = "POST" action = "Contact.php">
+            <input name = "name" type = "text" placeholder = "Name"/>
+            <input name = "email" type = "email" placeholder = "Email"/>
+            <input name = "message" type = "text" id = "msg" placeholder = "Message"/>
+        </form>
+        <input type = "submit" class = "form-control submit" value = "SEND MESSAGE"/>
+    </div>
+
+</section>
+
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+</br></br></br></br></br>
+
+<footer class="container">
+    <div class="row">
+        <p class="col-sm-4">&copy; 2018 Clockwork Mania</p>
+        <ul class="col-sm-8">
+            <li class="col-sm-1"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg"></li>
+            <li class="col-sm-1"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg"></li>
+            <li class="col-sm-1"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg"></li>
+            <li class="col-sm-1"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/medium.svg"></li>
+        </ul>
+    </div>
+</footer>
+
+<script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+
+<script src='main.js'></script>
+
+</body>
+</html>
