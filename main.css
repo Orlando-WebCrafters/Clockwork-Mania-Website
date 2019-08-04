@@ -411,6 +411,8 @@ header p {
 .jumbotron3 img{
     transition: 0.5s ease;
     opacity: 1;
+    height: 50vh;
+    width: 50vh;
 }
 
 .jumbotron3 img:hover{
